@@ -82,6 +82,9 @@
       "relation": "manyToMany",
       "target": "api::office.office",
       "inversedBy": "teams"
+    },
+    "youtubeVideo": {
+      "type": "text"
     }
   }
 }
