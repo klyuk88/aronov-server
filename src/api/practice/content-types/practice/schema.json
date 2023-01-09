@@ -41,6 +41,10 @@
       "relation": "oneToMany",
       "target": "api::media.media",
       "mappedBy": "practice"
+    },
+    "shortAbout": {
+      "type": "text",
+      "required": true
     }
   }
 }
