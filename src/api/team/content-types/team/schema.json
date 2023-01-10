@@ -85,6 +85,14 @@
     },
     "youtubeVideo": {
       "type": "text"
+    },
+    "singlePagePhoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
