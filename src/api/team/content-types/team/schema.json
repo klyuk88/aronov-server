@@ -87,11 +87,15 @@
       "type": "text"
     },
     "singlePagePhoto": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "awards": {
+      "type": "richtext",
       "required": true
     }
   }
