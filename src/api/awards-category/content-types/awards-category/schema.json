@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awards_categories",
+  "info": {
+    "singularName": "awards-category",
+    "pluralName": "awards-categories",
+    "displayName": "Категория наград",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "awards": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::award.award",
+      "inversedBy": "awards_categories"
+    }
+  }
+}

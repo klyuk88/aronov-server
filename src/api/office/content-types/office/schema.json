@@ -37,6 +37,12 @@
       "relation": "manyToMany",
       "target": "api::team.team",
       "mappedBy": "offices"
+    },
+    "representative": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.representative",
+      "required": true
     }
   }
 }
