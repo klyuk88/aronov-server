@@ -96,7 +96,7 @@
     },
     "awards": {
       "type": "richtext",
-      "required": true
+      "required": false
     }
   }
 }
