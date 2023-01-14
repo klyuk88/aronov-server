@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "Главная страница"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "team": {
+      "displayName": "Team",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.team"
+    }
+  }
+}
