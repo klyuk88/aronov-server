@@ -4,18 +4,28 @@
   "info": {
     "singularName": "main-page",
     "pluralName": "main-pages",
-    "displayName": "Главная страница"
+    "displayName": "Главная страница",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "team": {
       "displayName": "Team",
       "type": "component",
       "repeatable": true,
-      "component": "ui.team"
+      "component": "ui.team",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

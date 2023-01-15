@@ -10,15 +10,29 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "content": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "team": {
       "type": "relation",
@@ -32,7 +46,12 @@
       "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "thumbnail": {
       "type": "media",
@@ -40,12 +59,22 @@
       "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Seo": {
       "type": "component",
       "repeatable": false,
-      "component": "seo.seo"
+      "component": "seo.seo",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "media_categories": {
       "type": "relation",
@@ -56,7 +85,12 @@
     "shortAbout": {
       "type": "text",
       "required": true,
-      "maxLength": 170
+      "maxLength": 170,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "practice": {
       "type": "relation",
