@@ -102,6 +102,15 @@
       "type": "uid",
       "required": true,
       "targetField": "title"
+    },
+    "date": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "date",
+      "required": true
     }
   }
 }
