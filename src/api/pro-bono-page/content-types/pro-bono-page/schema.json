@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "pro_bono_pages",
+  "info": {
+    "singularName": "pro-bono-page",
+    "pluralName": "pro-bono-pages",
+    "displayName": "Страница ProBono"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pro_bonos",
+  "info": {
+    "singularName": "pro-bono",
+    "pluralName": "pro-bonos",
+    "displayName": "Pro Bono",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "team": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::team.team",
+      "inversedBy": "pro_bonos"
+    }
+  }
+}

@@ -167,6 +167,18 @@
       "relation": "oneToMany",
       "target": "api::case.case",
       "mappedBy": "team"
+    },
+    "pro_bonos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pro-bono.pro-bono",
+      "mappedBy": "team"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog",
+      "mappedBy": "team"
     }
   }
 }
