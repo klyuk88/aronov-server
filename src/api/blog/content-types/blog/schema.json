@@ -50,6 +50,10 @@
       "relation": "manyToMany",
       "target": "api::blog-category.blog-category",
       "mappedBy": "blogs"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
