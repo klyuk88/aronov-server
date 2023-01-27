@@ -27,7 +27,8 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "title"
+      "targetField": "title",
+      "required": true
     },
     "content": {
       "type": "richtext",
@@ -41,7 +42,7 @@
     "Cover": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
@@ -61,7 +62,7 @@
       "type": "component",
       "repeatable": true,
       "component": "ui.representative",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
