@@ -47,6 +47,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "practices": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::practice.practice",
+      "inversedBy": "cases"
     }
   }
 }
