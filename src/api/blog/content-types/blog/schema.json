@@ -35,10 +35,7 @@
       "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "videos",
-        "audios",
-        "files"
+        "images"
       ]
     },
     "views": {
