@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
-  port: 8081,
-  url: 'http://server3.1096137-cd86361.tmweb.ru/',
+  port: 1337,
+  url: 'http://sub.1219795-cb97382.tw1.ru/',
   app: {
     keys: env.array('APP_KEYS'),
   },
