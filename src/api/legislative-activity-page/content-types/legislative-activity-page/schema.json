@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "legislative_activity_pages",
+  "info": {
+    "singularName": "legislative-activity-page",
+    "pluralName": "legislative-activity-pages",
+    "displayName": "Страница закон. деятельность"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "practices_pages",
+  "info": {
+    "singularName": "practices-page",
+    "pluralName": "practices-pages",
+    "displayName": "Страница практики",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}
