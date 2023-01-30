@@ -95,7 +95,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::case.case",
-      "inversedBy": "practices"
+      "mappedBy": "practices"
     }
   }
 }
