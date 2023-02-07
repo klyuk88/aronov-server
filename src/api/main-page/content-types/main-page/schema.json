@@ -101,6 +101,19 @@
         }
       },
       "type": "string"
+    },
+    "planetMob": {
+      "allowedTypes": [
+        "videos",
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

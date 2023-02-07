@@ -1,18 +1,19 @@
 {
   "collectionName": "components_ui_representatives",
   "info": {
-    "displayName": "representative",
-    "icon": "angry"
+    "displayName": "Представитель офиса",
+    "icon": "angry",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "photo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "name": {
       "type": "string",

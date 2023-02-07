@@ -1,15 +1,18 @@
 {
   "collectionName": "components_ui_teams",
   "info": {
-    "displayName": "Team",
+    "displayName": "Команда",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "komanda": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::team.team"
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
