@@ -103,7 +103,7 @@
       "target": "api::media.media",
       "mappedBy": "team"
     },
-    "Seo": {
+    "seo": {
       "type": "component",
       "repeatable": false,
       "component": "seo.seo",

@@ -45,7 +45,7 @@
       "target": "api::team.team",
       "mappedBy": "practices"
     },
-    "Seo": {
+    "seo": {
       "type": "component",
       "repeatable": false,
       "component": "seo.seo",
