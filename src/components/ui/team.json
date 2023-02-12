@@ -19,6 +19,9 @@
     },
     "post": {
       "type": "string"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }

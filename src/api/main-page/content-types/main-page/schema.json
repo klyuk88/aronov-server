@@ -86,7 +86,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "videos"
+        "files"
       ],
       "pluginOptions": {
         "i18n": {
