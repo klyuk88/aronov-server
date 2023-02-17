@@ -10,26 +10,26 @@
     "photo": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
     },
     "name": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "post": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "email": {
       "type": "email",
-      "required": true
+      "required": false
     },
     "phone": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }
