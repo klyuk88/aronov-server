@@ -8,5 +8,16 @@ module.exports = ({ env }) => ({
       maxDepth: 3,
     },
   },
-  //...
+  ckeditor: {
+    enabled: true,
+    config: {
+      editor: {
+        mediaEmbed: {
+          previewsInData: true
+        }
+      }
+    }
+  }
+  
+  
 });

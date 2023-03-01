@@ -80,6 +80,14 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "video": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
