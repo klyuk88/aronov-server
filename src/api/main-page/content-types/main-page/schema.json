@@ -102,6 +102,16 @@
           "localized": true
         }
       }
+    },
+    "teamMobile": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ui.team"
     }
   }
 }
