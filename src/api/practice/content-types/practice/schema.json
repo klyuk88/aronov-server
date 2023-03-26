@@ -93,7 +93,7 @@
     },
     "cases": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToMany",
       "target": "api::case.case",
       "mappedBy": "practices"
     }

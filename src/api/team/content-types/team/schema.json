@@ -162,12 +162,6 @@
         }
       }
     },
-    "cases": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::case.case",
-      "mappedBy": "team"
-    },
     "pro_bonos": {
       "type": "relation",
       "relation": "oneToMany",
@@ -187,6 +181,12 @@
         }
       },
       "type": "richtext"
+    },
+    "case": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::case.case",
+      "inversedBy": "teams"
     }
   }
 }
