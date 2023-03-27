@@ -182,9 +182,9 @@
       },
       "type": "richtext"
     },
-    "case": {
+    "cases": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::case.case",
       "inversedBy": "teams"
     }

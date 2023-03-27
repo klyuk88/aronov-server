@@ -39,12 +39,6 @@
         }
       }
     },
-    "teams": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::team.team",
-      "mappedBy": "case"
-    },
     "date": {
       "type": "date",
       "required": true,
@@ -82,6 +76,12 @@
       "relation": "manyToOne",
       "target": "api::practice.practice",
       "inversedBy": "cases"
+    },
+    "teams": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::team.team",
+      "mappedBy": "cases"
     }
   }
 }
